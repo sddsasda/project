@@ -65,7 +65,26 @@ function joinform_check() {
   //아이디 중복체크 팝업창(현재 공백문서)
   function id_check() {
     //window.open("팝업될 문서 경로", "팝업될 문서 이름", "옵션");
-    window.open("", "", "width=600, height=200, left=200, top=100");
+    switch (uid.value) {
+      case "aaaaa" :
+        alert('존재하는 아이디 입니다.')       
+        break;
+      case "bbbbb" :
+        alert('존재하는 아이디 입니다.')       
+        break;
+      case "ccccc" :
+        alert('존재하는 아이디 입니다.')       
+        break;
+      case "ddddd" :
+        alert('존재하는 아이디 입니다.')       
+        break;
+      case "eeeee" :
+        alert('존재하는 아이디 입니다.')       
+        break;          
+      default :
+        alert('사용 가능한 아이디입니다.') 
+        break;
+    }
   }
   
   //이메일 옵션 선택후 주소 자동 완성
